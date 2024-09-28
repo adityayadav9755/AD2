@@ -52,4 +52,4 @@ Label(newpage, text="Hello new user!", font=font2, bg="white").pack()
 Button(sidebar, text="Home", command=homepg, borderwidth=0.5, width=15, font=font2, pady=10, padx=10).pack(side=TOP)
 Button(sidebar, text="Commands", command=cmndpg, borderwidth=0.5, width=15, font=font2, pady=10, padx=10).pack(side=TOP)
 
-# root.mainloop()
+root.mainloop()
